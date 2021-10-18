@@ -1,0 +1,97 @@
+@import './fonts.css';
+
+:root {
+    --n400: ;
+    --text: #313131;
+    --body: #E5E5E5;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.nav_top{
+    background-color: #313131;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    list-style: none;
+    gap: 32px;
+    padding: 15px 0;
+}
+
+.list li a{
+    text-decoration: none;
+    color: white;
+}
+
+.selec{
+    background-color: #313131;
+    color: white;
+    border: none;
+}
+
+.search {
+    max-width: 630px;
+    width: 100%;
+}
+
+.search_pl {
+    width: 65%;
+    border-radius: 0;
+    outline: none;
+}
+
+.search_pl:focus{
+    box-shadow: 0 0 0;
+}
+
+.order {
+    width: 35%;
+    border-radius: 0;
+    color: var(--text);
+    border: 1px solid #313131 ;
+    background-color: white;
+    color: var(--text);
+    transition: 0.5s;
+}
+.order:hover{
+    background-color: #313131;
+    color: white;
+}
+
+.order:focus{
+    box-shadow: 0 0 0;
+}
+
+
+
+.navi {
+    gap: 143px;
+}
+
+
+.fa-bars{
+    font-size: 36px;
+    color: var(--text);
+}
+
+.fa-bars:focus{
+    box-shadow: 0 0 0;
+}
